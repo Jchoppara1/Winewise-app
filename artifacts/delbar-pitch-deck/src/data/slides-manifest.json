@@ -1,0 +1,114 @@
+[
+  {
+    "id": "a1b2c3d4-0001-4abc-8def-ef1234567801",
+    "position": 1,
+    "filepath": "src/pages/slides/TitleHero.tsx",
+    "title": "Title — Del Bar Wine & Dine",
+    "description": "Hero title slide with wine imagery and platform introduction.",
+    "speakerNotes": ""
+  },
+  {
+    "id": "a1b2c3d4-0002-4abc-8def-ef1234567802",
+    "position": 2,
+    "filepath": "src/pages/slides/TheProblem.tsx",
+    "title": "The Problem",
+    "description": "Guest-facing gaps and operational friction in restaurant wine programs.",
+    "speakerNotes": ""
+  },
+  {
+    "id": "a1b2c3d4-0003-4abc-8def-ef1234567803",
+    "position": 3,
+    "filepath": "src/pages/slides/ThePlatform.tsx",
+    "title": "The Platform",
+    "description": "Overview of the three platform pillars: catalog, pairing engine, admin tools.",
+    "speakerNotes": ""
+  },
+  {
+    "id": "a1b2c3d4-0004-4abc-8def-ef1234567804",
+    "position": 4,
+    "filepath": "src/pages/slides/WineCatalog.tsx",
+    "title": "Wine Catalog",
+    "description": "66 wines across 8 categories, with by-glass availability.",
+    "speakerNotes": ""
+  },
+  {
+    "id": "a1b2c3d4-0005-4abc-8def-ef1234567805",
+    "position": 5,
+    "filepath": "src/pages/slides/FoodPairings.tsx",
+    "title": "Food Pairings",
+    "description": "6-dimension pairing scoring algorithm breakdown.",
+    "speakerNotes": ""
+  },
+  {
+    "id": "a1b2c3d4-0006-4abc-8def-ef1234567806",
+    "position": 6,
+    "filepath": "src/pages/slides/FoodMenu.tsx",
+    "title": "Food Menu",
+    "description": "37 Middle Eastern dishes with bidirectional pairing.",
+    "speakerNotes": ""
+  },
+  {
+    "id": "a1b2c3d4-0007-4abc-8def-ef1234567807",
+    "position": 7,
+    "filepath": "src/pages/slides/WineProfiles.tsx",
+    "title": "Wine Profiles",
+    "description": "Tasting profile, aroma notes, and serving guidance for each wine.",
+    "speakerNotes": ""
+  },
+  {
+    "id": "a1b2c3d4-0008-4abc-8def-ef1234567808",
+    "position": 8,
+    "filepath": "src/pages/slides/AdminTools.tsx",
+    "title": "Admin Tools",
+    "description": "Inventory management — stock control and secure access.",
+    "speakerNotes": ""
+  },
+  {
+    "id": "a1b2c3d4-0009-4abc-8def-ef1234567809",
+    "position": 9,
+    "filepath": "src/pages/slides/Technology.tsx",
+    "title": "Technology",
+    "description": "Platform architecture: classification engine, scoring algorithm, live data.",
+    "speakerNotes": ""
+  },
+  {
+    "id": "a1b2c3d4-0010-4abc-8def-ef1234567810",
+    "position": 10,
+    "filepath": "src/pages/slides/SalesImpact.tsx",
+    "title": "Sales Impact",
+    "description": "+20–30% average check increase from guided wine recommendations.",
+    "speakerNotes": ""
+  },
+  {
+    "id": "a1b2c3d4-0011-4abc-8def-ef1234567811",
+    "position": 11,
+    "filepath": "src/pages/slides/RevenueForecast.tsx",
+    "title": "Revenue Forecast",
+    "description": "Projected annual revenue lift: $162K–$243K based on 1,500 covers/month.",
+    "speakerNotes": ""
+  },
+  {
+    "id": "a1b2c3d4-0012-4abc-8def-ef1234567812",
+    "position": 12,
+    "filepath": "src/pages/slides/GuestExperience.tsx",
+    "title": "Guest Experience",
+    "description": "Confidence at every table — staff, guests, and onboarding benefits.",
+    "speakerNotes": ""
+  },
+  {
+    "id": "a1b2c3d4-0013-4abc-8def-ef1234567813",
+    "position": 13,
+    "filepath": "src/pages/slides/PlatformStats.tsx",
+    "title": "Platform at a Glance",
+    "description": "Key stats: 66 wines, 37 dishes, 2,442 pairings, 99% pairing coverage.",
+    "speakerNotes": ""
+  },
+  {
+    "id": "a1b2c3d4-0014-4abc-8def-ef1234567814",
+    "position": 14,
+    "filepath": "src/pages/slides/Closing.tsx",
+    "title": "Closing",
+    "description": "Del Bar Wine & Dine closing slide with contact prompt.",
+    "speakerNotes": ""
+  }
+]

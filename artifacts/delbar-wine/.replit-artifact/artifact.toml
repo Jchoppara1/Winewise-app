@@ -1,0 +1,31 @@
+kind = "web"
+previewPath = "/"
+title = "Del Bar Wine List Manager"
+version = "1.0.0"
+id = "artifacts/delbar-wine"
+router = "path"
+
+[[integratedSkills]]
+name = "react-vite"
+version = "1.0.0"
+
+[[services]]
+name = "web"
+paths = [ "/" ]
+localPort = 21568
+
+[services.development]
+run = "pnpm --filter @workspace/delbar-wine run dev"
+
+[services.production]
+build = [ "pnpm", "--filter", "@workspace/delbar-wine", "run", "build" ]
+publicDir = "artifacts/delbar-wine/dist/public"
+serve = "static"
+
+[[services.production.rewrites]]
+from = "/*"
+to = "/index.html"
+
+[services.env]
+PORT = "21568"
+BASE_PATH = "/"

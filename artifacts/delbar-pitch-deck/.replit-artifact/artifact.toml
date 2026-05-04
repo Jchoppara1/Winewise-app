@@ -1,0 +1,31 @@
+kind = "slides"
+previewPath = "/delbar-pitch-deck/"
+title = "Del Bar Wine & Dine — Platform Overview"
+version = "1.0.0"
+id = "artifacts/delbar-pitch-deck"
+router = "path"
+
+[[integratedSkills]]
+name = "slides"
+version = "1.0.0"
+
+[[services]]
+name = "web"
+paths = [ "/delbar-pitch-deck/" ]
+localPort = 19669
+
+[services.development]
+run = "pnpm --filter @workspace/delbar-pitch-deck run dev"
+
+[services.production]
+build = [ "pnpm", "--filter", "@workspace/delbar-pitch-deck", "run", "build" ]
+publicDir = "artifacts/delbar-pitch-deck/dist/public"
+serve = "static"
+
+[[services.production.rewrites]]
+from = "/*"
+to = "/index.html"
+
+[services.env]
+PORT = "19669"
+BASE_PATH = "/delbar-pitch-deck/"
